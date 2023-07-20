@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70e3f46eb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGO.jpg" class="alex">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#services">Services</a> </li>
+                <li> <a href="#portfolio">Portfolio</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="description">
+            <p><span>BTech</span>Graduate</p>
+            <h1>Hi, I am <span> Ausni</span>  <br> from Jyothi Engineering College.</h1>
+    </div> 
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/aboutus (1)_cleanup.jpg" alt="" srcset="">
+
+            </div>
+            <div class="about-col2">
+                <h1 class="aboutus">About Me</h1>
+                <p>Alex and Ausni are both college students who are currently in their sophomore year. <br> They are roommates and have become good friends over the past year.</p>
+                <div class="tabtitles">
+                    <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span></li>
+                        <li>description</li>
+                        <li><span>Python</span> <br></li>
+                        <li>description</li>
+                        <li><span>Chelakkal</span> <br></li>
+                        <li>description</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019- till now</span> <br> </li>
+                        <li>description</li>
+                        <li><span>2017-2019</span> <br> </li>
+                        <li>description</li>
+                        <li><span>2009-2017</span> <br></li>
+                        <li>description</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span> <br> </li>
+                        <li>Jobin and Jismi</li>
+                        <li><span>2024</span> <br> 
+                        <li>amazon</li></li>
+                        <li><span>2025</span> <br> </li>
+                        <li>meta</li>
+                        <li><span>2026</span> <br> </li>
+                        <li>tesla</li>
+                    </ul>
+                </div>
+
+             </div>
+        </div>
+    </div>
+</div>
+<!-- --------------services---------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="aboutus">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Programmer</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-dice"></i>
+                <h2>Kuthithirupp</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="aboutus">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Work1</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Work2</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>       
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Work3</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                </div>   
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9497411186</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/eli_ze_bath/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/AUSNI ELIZEBATH C.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ausni.Made with  <i class="fa-solid fa-heart"></i> by Ochuz Lectures</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tablinks");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2I5bL_Sr6_Nt5uGM5VWcKVzFnszbtBIKi868xeUtDVzUekQeleot9OBYoZnNSpLp6NA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
